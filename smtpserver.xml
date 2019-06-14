@@ -1,0 +1,9 @@
+<smtpserver>
+	<hostname>smtp.163.com</hostname>
+	<port>25</port>
+	<sslport>465</sslport>
+	<user>xxx@163.com</user>
+	<pass>xxx</pass>
+	<loghost>127.0.0.1</loghost>
+	<logport>8088</logport>
+</smtpserver>

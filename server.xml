@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<server>
+	<serverip>127.0.0.1</serverip>
+	<serverport>8088</serverport>
+	<logslice>120</logslice>
+</server>

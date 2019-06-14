@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package protofile;
+
+message Packet{
+	EnumPacketCommand command =1;
+	bytes serialized =2;
+	bytes connectionid =3;
+	uint32 gametype =4;
+	string ip=5;
+};
+
+message LogInfo{
+	bytes server =1;	
+	bytes reason =2;
+};
+
+message LoginInfo{
+};
+
+enum EnumPacketCommand{
+	LOGINREQUEST=0;
+	LOGINRESPONSE=1;
+	GAMELOGIC=2;
+	LOGINFO=3;
+}
